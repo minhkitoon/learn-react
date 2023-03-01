@@ -1,0 +1,45 @@
+.navbar{
+    padding: 15px 0px!important;
+}
+.navbar-custom{
+    justify-content: flex-end!important;
+    background-color: #ffffff!important;
+    border-bottom: 1px solid #eee;
+    padding: 20px 0;
+    transition: all 0.25s ease-in-out 0s;
+}
+.nav-item{
+    margin: 0px 10px;
+}
+.nav-item a{
+    font-weight: 700;
+    color: #454545;
+}
+.nav-item > a.discover-btn {
+    color: #fff!important;
+    background: #008aff;
+    background: -webkit-linear-gradient(135deg, #6B02FF 0%, #985BEF 100%);
+    background: -o-linear-gradient(bottom right, #6B02FF, #985BEF);
+    background: -moz-linear-gradient(bottom right, #008aff, #1ad2fd);
+    background: linear-gradient(135deg, #6B02FF 0%, #985BEF 100%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    border-radius: 5px 5px;
+}
+.nav-item a.discover-btn:hover{
+    background-color: #fff;
+}
+.header{
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-brand {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px!important;
+    font-weight: 700;
+    color: #353535!important;
+}
