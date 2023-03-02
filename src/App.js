@@ -14,6 +14,7 @@ function App() {
     <div className="App">
       <Header logo={'MinhReact'} />
       <Routes>
+          <Route path="/" element={ <Home /> } />
           <Route path="/home" element={ <Home /> } />
           <Route path="/about" element={ <About />} />
       </Routes>
