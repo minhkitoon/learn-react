@@ -1,31 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
+import {
+  Routes,
+  Route,
+  NavLink,
+} from 'react-router-dom';
 import './App.css';
 import Header from './components/header';
+import Home from './components/home';
+import About from './components/about';
 
-class App extends React.Component{
-  render() {
-    return (
-      <div className="App">
-        <Header logo={'MinhReact'} />
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </div>
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div className="App">
+      <Header logo={'MinhReact'} />
+      <Routes>
+          <Route path="/home" element={ <Home /> } />
+          <Route path="/about" element={ <About />} />
+      </Routes>
+    </div>
+  );
 }
-
-
 export default App;

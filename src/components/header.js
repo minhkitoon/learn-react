@@ -2,12 +2,13 @@ import React from 'react';
 import './header.css';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
+import { NavLink } from 'react-router-dom';
 
 function Header(props) {
     return (
         <Container>
             <header className='header'>
-            <a href="#" className='navbar-brand' id="logo">{props.logo}</a>
+                <a href="/" className='navbar-brand' id="logo">{props.logo}</a>
                 <Nav className='navbar navbar-fixed-top navbar-custom'>
                     <Nav.Item>
                         <Nav.Link href="/home">Home</Nav.Link>
