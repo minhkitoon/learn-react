@@ -1,7 +1,11 @@
 .App {
   text-align: center;
-}
 
+
+}
+.content{
+  min-height: 100vh;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +39,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+body {
+  margin:0;
+  padding:0;
+  min-height:100%;
 }
